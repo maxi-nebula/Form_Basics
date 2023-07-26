@@ -1,0 +1,56 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./testyourskill1.css" />
+    <title>UserId and password</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="post">
+        <fieldset>
+          <div>
+            <label for="user_id">*User ID</label>
+            <input type="text" name="user_id" id="user_id" required />
+          </div>
+          <div>
+            <label for="password">*Password </label>
+            <input type="password" name="password" id="password" required />
+          </div>
+        </fieldset>
+
+        <div>
+          <fieldset>
+            <label for="vegan">Non-vegan</label>
+            <input type="radio" name="vegan" checked />
+            <label for="vegan">Vegan</label>
+            <input type="radio" name="vegan" />
+          </fieldset>
+
+          <fieldset>
+            <label for="onions">onions</label>
+            <input type="checkbox" name="onions" />
+            <label for="pickles">pickles</label>
+            <input type="checkbox" name="pickles" />
+            <label for="chicken">Chicken</label>
+            <input type="checkbox" name="chicken" />
+          </fieldset>
+
+          <fieldset>
+            <label for="documents"> upload your pictures here</label>
+            <input
+              type="file"
+              id="file"
+              name="documents"
+              accept="image/png ,image/jpeg"
+            />
+          </fieldset>
+
+          <div><button type="submit">Submit</button></div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
